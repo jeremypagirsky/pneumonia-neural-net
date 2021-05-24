@@ -16,7 +16,7 @@ Two types of deep learning models were tested and compared for accuracy and loss
 The tuned CNN had a higher accuracy score (85.74%) compared to tuned MLPs with similar hyperparameters (62.50%). Loss for the tuned CNN was 0.63 while the loss for the MLP was 0.70.
 
 ## Conclusions
-- Based on x-ray imaging, this model is able to predict one's pneumonia diagnosis with 85.74% accuracy.
+Based on x-ray imaging, this model is able to predict one's pneumonia diagnosis with 85.74% accuracy.
 
 ## Future Work
 As this is the first iteration of this project, further technical approaches toward optimization will be investigated. This project also has great implications for the COVID-19 pandemic and preventing the occurrence of future spikes in cases.
