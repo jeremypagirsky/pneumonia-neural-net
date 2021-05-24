@@ -7,6 +7,8 @@ The objective of this project is to build a deep learning model that is able to 
 ## Data
 About 6,000 x-ray images originated from [Kaggle](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia), split into training, testing, and validation directories.
 
+![xray_sample](./images/xray_sample.png/))
+
 ## Methods
 Two types of deep learning models were tested and compared for accuracy and loss: Multilayer Perceptrons (MLPs) and Convolutional Neural Networks (CNNs). Baseline models were constructed, compared, and further tuned to optimize loss, accuracy, and the extent of overfitting.
 
