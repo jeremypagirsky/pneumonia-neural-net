@@ -10,13 +10,10 @@ About 6,000 x-ray images originated from [Kaggle](https://www.kaggle.com/paultim
 ![xray_sample](./images/xray_sample.png/))
 
 ## Methods
-Two types of deep learning models were tested and compared for accuracy and loss: Multilayer Perceptrons (MLPs) and Convolutional Neural Networks (CNNs). Baseline models were constructed, compared, and further tuned to optimize loss, accuracy, and the extent of overfitting.
+Two types of deep learning models have been tested and compared for accuracy and loss: Multilayer Perceptrons (MLPs) and Convolutional Neural Networks (CNNs). Baseline models have been constructed, compared, and further tuned to optimize loss, accuracy, and the extent of overfitting.
 
 ## Results
-The tuned CNN had a higher accuracy score (85.74%) compared to tuned MLPs with similar hyperparameters (62.50%). Loss for the tuned CNN was 0.63 while the loss for the MLP was 0.70.
-
-## Conclusions
-Based on x-ray imaging, this model is able to predict one's pneumonia diagnosis with 85.74% accuracy.
+The tuned CNN produced a higher accuracy score (85.74%) compared to tuned MLPs with similar hyperparameters (62.50%). Loss for the tuned CNN was 0.63 while the loss for the MLP was 0.70.
 
 ## Future Work
 As this is the first iteration of this project, further technical approaches toward optimization will be investigated. This project also has great implications for the COVID-19 pandemic and preventing the occurrence of future spikes in cases.
