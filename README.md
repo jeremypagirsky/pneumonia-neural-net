@@ -1,7 +1,7 @@
 # Pneumonia Classification with Deep Learning
 **Author**: [Jeremy Pagirsky](github.com/jeremypagirsky)
 
-![pneumonia](./images/pneumonia.png/)
+![pneumonia](./images/pneumonia_diagram.png/)
 
 ## Overview
 The objective of this project is to build a deep learning model that is able to classify one's pneumonia diagnosis based on their chest x-ray. While a variety of diagnostic methods are utilized, chest x-rays are minimially invasive, fast, and comparatively less expensive. In conjunction with those benefits, robust AI tools may provide great potential for advancing prophylactic healthcare. This is especially pertinent to regions where there are a greater amount of barriers to accessing these resources.
@@ -17,7 +17,7 @@ Two types of deep learning models have been tested and compared for accuracy and
 ## Results
 The tuned CNN produced a higher accuracy score (85.74%) compared to tuned MLPs with similar hyperparameters (62.50%). Loss for the tuned CNN was 0.63 while the loss for the MLP was 0.70.
 
-![accuracy](./image/accuracy.png/)
+![accuracy](./images/accuracy.png/)
 ![loss](./images/loss.png/)
 
 ## Future Work
