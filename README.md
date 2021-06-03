@@ -1,6 +1,7 @@
 # Pneumonia Classification with Deep Learning
 **Author**: [Jeremy Pagirsky](github.com/jeremypagirsky)
 
+## Pneumonia
 ![pneumonia](./images/pneumonia.png/)
 
 ## Overview
