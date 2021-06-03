@@ -1,10 +1,10 @@
 # Pneumonia Classification with Deep Learning
 **Author**: [Jeremy Pagirsky](github.com/jeremypagirsky)
 
-![pneumonia](images/pneumonia.png/)
-
 ## Overview
 The objective of this project is to build a deep learning model that is able to classify one's pneumonia diagnosis based on their chest x-ray. While a variety of diagnostic methods are utilized, chest x-rays are minimially invasive, fast, and comparatively less expensive. In conjunction with those benefits, robust AI tools may provide great potential for advancing prophylactic healthcare. This is especially pertinent to regions where there are a greater amount of barriers to accessing these resources.
+
+![pneumonia](./images/pneumonia.png/)
 
 ## Data
 About 6,000 x-ray images originated from [Kaggle](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia), split into training, testing, and validation directories.
