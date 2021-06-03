@@ -1,5 +1,5 @@
 # Pneumonia Classification with Deep Learning
-**Author**: [Jeremy Pagirsky](github.com/jeremypagirsky)
+**Author**: [Jeremy Pagirsky](https://www.github.com/jeremypagirsky)
 
 ![pneumonia](images/pneumonia_diagram.png)
 
@@ -17,8 +17,23 @@ Two types of deep learning models have been tested and compared for accuracy and
 ## Results
 The tuned CNN produced a higher accuracy score (85.74%) compared to tuned MLPs with similar hyperparameters (62.50%). Loss for the tuned CNN was 0.63 while the loss for the MLP was 0.70.
 
-![accuracy](./images/accuracy.png/)
-![loss](./images/loss.png/)
+![accuracy](./images/cnn_accuracy.png/)
+![loss](./images/cnn_loss.png/)
 
 ## Future Work
 As this is the first iteration of this project, further technical approaches toward optimization will be investigated. This project also has great implications for the COVID-19 pandemic and preventing the occurrence of future spikes in cases.
+
+## For More Information
+
+Please review the full analysis in the [CNN](./convolutional_nn.ipynb) and [MLP](./multilayer_perceptron.ipynb) Jupyter Notebooks or the [presentation](./xray_image_classification.pdf).
+
+For any additional questions, please contact **Jeremy Pagirsky (jeremy.pagirsky@gmail.com)**
+
+## Repository Structure
+
+```
+├── images                                     <- Images of final CNN accuracy and loss functions
+├── README.md                                  <- The README for reviewers of this project
+├── convolutional_nn.ipynb                     <- Code for convolutional neural network (CNN) models
+├── multilayer_perceptron.ipynb                <- Code for multilayer perceptron models
+└── xray_image_classification.pdf              <- PDF version of project presentation
